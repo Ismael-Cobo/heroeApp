@@ -8,7 +8,7 @@ export const LoginScreen = () => {
 
     const navigate = useNavigate()
 
-    const { user, dispatch} = useContext(AuthContext)
+    const { dispatch} = useContext(AuthContext)
 
 
     const handleLogin = () => {
