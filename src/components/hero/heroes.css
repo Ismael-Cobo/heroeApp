@@ -1,0 +1,45 @@
+.heroes__container{
+    max-width: 120rem !important;
+    margin: 0 auto;
+    width: 90%;
+    padding: 1rem 0;
+}
+
+
+.heroes__list__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem 1rem;
+}
+
+.heroe__card {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    gap: 2rem;
+}
+
+.hero__card__img {
+    height: 200px;
+    width: 140px;
+    object-fit: cover;
+}
+
+.hero__grid {
+    display: flex;
+    flex-flow: row gap;
+    gap: 2rem
+}
+
+.hero__img {
+    height: 400px;
+    width: 270px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.hero__text {
+    list-style: none;
+}
